@@ -39,6 +39,8 @@ language = inpout("what is the programming language you are learning?") # create
 
 print("the language you are studying is ", language)
 
+# creating an app to get the average grade of a student
+
 # cocatianation = period
 
 #cls = cleans terminal
