@@ -24,10 +24,38 @@ saudacao() #uma funcao ao ser criada, deve ser chamada para ser executada (caixa
 # função com parâmetros
 def saudacao(nome, curso): # dentro dos parenteses colocamos os parametros
     print(f'seja bem-vinda(o)!', {nome})
-    print('olá, é um prazer ter voce fazendo parte do curso de {curso}!')
+    print(f'olá, é um prazer ter voce fazendo parte do curso de {curso}!')
 
 saudacao('milena', 'java') #passamos o que queremos, recebe e joga o nome
-saudacao('jailene', 'python' )
+saudacao('jailene', 'python')
 
 # função com parâmetros default
+def saudacao(nome, curso='python'): # dentro dos parenteses colocamos os parametros pré-definidos
+    print(f'seja bem-vinda(o)!', {nome})
+    print(f'olá, é um prazer ter voce fazendo parte do curso de {curso}!')
 
+saudacao('milena', 'c++') #não é obrigatório passar para c++, mas se não mudar, irá assumir o valor padrão/ caso quisesse alterar o parâmetro pré-definido
+
+# funções com retorno
+# função é uma caixa preta com entrada, processamento e saída
+# resultado de uma função é retorno
+
+def soma(num1, num2):
+    #print('Soma = ', num1 + num2)
+    return num1 + num2 # sempre que utiliza o reeturn, a função para de executar. retorna a função e acaba. é recomendado usar no final da função
+    #print('olá') não aparece pois está após o return
+
+resultado = soma(5, 7)
+print('o resultado da soma é ', resultado)
+
+# para criar uma função que seja reutilizavel em diversos cenarios, é recomendado que nao imprima dentro da função, e sim retorne o conteudo que o usuario precise
+
+def calculadora(num1, num2, operacao='+'):
+    if operacao == '+':
+        return num1 + num2
+    elif operacao == '-':
+        return num1 - num2
+
+resultado = calculadora(10, 20, '-')
+
+print(resultado)
