@@ -10,5 +10,5 @@ Mini curso de Python, da comunidade Let's code pass, onde foram abordados os tem
 -   Laços de repetição;
 -   Matrizes
 -   Métodos lista;
--   Funções.
+-   Funções;
 -   Dicionários.
