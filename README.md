@@ -8,7 +8,7 @@ Mini curso de Python, da comunidade Let's code pass, onde foram abordados os tem
 -   Tipos de conversores;
 -   Condições;
 -   Laços de repetição;
--   Matrizes
+-   Matrizes;
 -   Métodos lista;
 -   Funções;
 -   Dicionários.
