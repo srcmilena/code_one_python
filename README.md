@@ -1,14 +1,14 @@
 # Code one - Python
 
-Mini curso de Python, da comunidade Let's code pass, onde foram abordados os temas:
+Python mini course, from the Let's code pass community, where the topics were covered:
 
--   Entrada e saída de dados;
--   Variáveis;
--   Operadores;
--   Tipos de conversores;
--   Condições;
--   Laços de repetição;
--   Matrizes;
--   Métodos lista;
--   Funções;
--   Dicionários.
+- Data Input and Output;
+- Variables;
+- Operators;
+- Types of converters;
+- Conditions;
+- Loops repetition;
+- Arrays;
+- Methods list;
+- Functions;
+- Dictionaries.
